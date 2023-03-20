@@ -1,0 +1,28 @@
+const list_dompet = [
+    1000000,
+    -840000,
+    500000,
+    -160000,
+    2000000,
+    -150000,
+];
+let x = 0;
+console.log('LOOPING PAKE DO-WHILE')
+do {
+    console.log(list_dompet [x])
+    x ++;
+}
+while (x < list_dompet.length)
+console.log('LOOPING PAKE WHILE')
+let y = 0;
+while (y < list_dompet.length);
+{
+    console.log(list_dompet [y]);
+    y++;
+}
+console.log('LOOPING PAKE FOR')
+for (let z =0; z < list_dompet.length; z++)
+{
+console.log(list_dompet[z]);
+
+}
